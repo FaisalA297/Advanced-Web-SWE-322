@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+<?php
+
+echo "<h1> Faisal AlShedokhi 202011297 </h1>";
+
+$n = 1;
+echo $n;
+echo "<br>";
+
+$s = "1";
+echo $s;
+echo "<br>";
+
+$n1 = $n . $s;
+echo $n1;
+echo "<br>";
+
+$n2 = $n1 . "10 little penguins";
+echo $n2;
+echo "<br>";
+
+$n3 = "hello";
+echo $n3;
+echo "<br>";
+
+$n4 = "world";
+echo $n4;
+echo "<br>";
+
+$n5  = $n3 . $n4;
+echo $n5;
+echo "<br>";
+
+$n6 = $n3 . $n4;
+echo $n6;
+echo "<br>";
+
+?>
+
+</body>
+
+</html>
