@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+<?php
+
+function add ($x, $y){
+    return($x+$y);
+}
+
+function subtract ($x, $y){
+    return($x-$y);
+}
+
+function multi ($x, $y){
+    return($x*$y);
+}
+
+function divide ($x, $y){
+    return($x/$y);
+}
+
+echo "<b>Addition</b>", "<br>", "2 + 4 =", add(2,4), "<br>";
+
+echo "<b>Subtraction</b>", "<br>", "7 - 3 =", subtract(7,3), "<br>";
+
+echo "<b>Multiplication</b>", "<br>", "3 * 5 =", multi(3,5), "<br>";
+
+echo "<b>Division</b>", "<br>", "27 / 9 =", divide(27,9), "<br>";
+
+?>
+
+
+</body>
+
+</html>
